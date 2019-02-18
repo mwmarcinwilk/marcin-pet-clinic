@@ -94,6 +94,6 @@
         </plugin>
     </plugins>
 </build>
-<scm><developerConnection>scm:git:git@github.com:springframeworkguru/sfg-pet-clinic.git</developerConnection></scm>
+<scm><developerConnection>scm:git:git@github.com:mwmarcinwilk/marcin-pet-clinic.git</developerConnection></scm>
 
 </project>
