@@ -4,7 +4,7 @@
 
 <groupId>marcin.spring</groupId>
 <artifactId>marcin-pet-clinic</artifactId>
-<version>0.0.1-SNAPSHOT</version>
+<version>0.0.1</version>
 
 <modules>
     <module>pet-clinic-data</module>
@@ -95,6 +95,7 @@
     </plugins>
 </build>
 <scm><developerConnection>scm:git:origin</developerConnection>
-</scm>
+  <tag>marcin-pet-clinic</tag>
+  </scm>
 
 </project>
