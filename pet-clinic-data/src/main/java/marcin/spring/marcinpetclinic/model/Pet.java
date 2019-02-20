@@ -1,8 +1,11 @@
 package marcin.spring.marcinpetclinic.model;
 
-import java.time.LocalDate;
+import lombok.Data;
 
-public class Pet {
+import java.time.LocalDate;
+@Data
+
+public class Pet  extends  BaseEntity{
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;

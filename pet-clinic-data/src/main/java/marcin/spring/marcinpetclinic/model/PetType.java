@@ -1,5 +1,9 @@
 package marcin.spring.marcinpetclinic.model;
 
-public class PetType {
+import lombok.Data;
+
+@Data
+
+public class PetType  extends BaseEntity{
     private String name;
 }

@@ -1,6 +1,10 @@
 package marcin.spring.marcinpetclinic.model;
 
-public class Person {
+import lombok.Data;
+
+@Data
+
+public class Person extends BaseEntity {
     private String firstname;
     private String lastName;
 }
