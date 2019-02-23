@@ -4,9 +4,10 @@ import marcin.spring.marcinpetclinic.model.Pet;
 import marcin.spring.marcinpetclinic.model.Vet;
 import marcin.spring.marcinpetclinic.services.CrudService;
 import marcin.spring.marcinpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Vet findById(Long id) {

@@ -3,9 +3,10 @@ package marcin.spring.marcinpetclinic.services.map;
 import marcin.spring.marcinpetclinic.model.Owner;
 import marcin.spring.marcinpetclinic.services.CrudService;
 import marcin.spring.marcinpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
